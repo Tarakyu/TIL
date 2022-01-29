@@ -170,7 +170,7 @@ public class Pokemon {
 }
 
 // client
-int damage = pikachu.getDamage()
+int damage = pikachu.getDamage();
 ```
 
 이렇게 하면 나중에 데미지 공식(내부 구현)을 바꾸더라도 클라이언트의 코드를 바꿀 필요가 없다!
